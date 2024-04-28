@@ -1,0 +1,13 @@
+.containerInput{
+    padding-left: 12px ;
+    display: flex;
+    padding-bottom: 15px;
+  }
+
+  .navbar-nav .nav-link {
+    color: white;
+  }
+  
+  .navbar-toggler-icon {
+    background-color: white;
+  }

@@ -1,0 +1,74 @@
+.fJugadores {
+    background-image: url('../Img/fondo2.jpg');
+    height: 82.78vh;
+    width: 100%;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.recuadro1 {
+    background-color: rgb(64, 116, 58);
+    width: 450px;
+    height: 130px;
+    margin-left: 35%;
+    margin-top: 150px;
+    border-radius: 25px;
+    text-align: center;
+    opacity: 0.98;
+    vertical-align: middle;
+}
+
+.buscarJugador {
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-top: 7%;
+}
+
+.resultados {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    max-width: 300px;
+    background-color: rgba(3, 3, 3, 0.8);
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+}
+
+.resultados>div {
+    border: 0px solid #ccc;
+    padding: 0px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.resultados h3 p {
+    color: white;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
+.resultados img {
+    max-width: 100%;
+}
+
+
+
+.back-button1 {
+    margin-top: 160px;
+    margin-left: 870px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+}

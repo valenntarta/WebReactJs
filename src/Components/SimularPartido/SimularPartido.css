@@ -1,0 +1,49 @@
+.fNosotros{
+    height:82.78vh;
+    width: 100%;
+    background-image: url(../Img/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fondo-semi-translucido {
+    background-color: rgba(24, 22, 22, 0.7);
+    padding: 20px;
+    height: 82.78vh; 
+    display: flex;
+    align-items: center;
+  }
+  
+
+.nuestro-equipo {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .nuestro-equipo h1 {
+    font-size: 32px;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+  
+  .nuestro-equipo h2 {
+    font-size: 24px;
+    color: #ffffff;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .nuestro-equipo p {
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+
+  .vs-text {
+    color: white;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+    font-size: 50px;
+  }

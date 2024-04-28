@@ -1,0 +1,105 @@
+.fEquipos {
+  background-image: url("../Img/fondo2.jpg");
+  height: 82.78vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+.contenedor-cajas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.tituloPag {
+  margin-bottom: 20px;
+}
+
+.team-button {
+  margin: 10px;
+  background-color: rgba(255, 255, 255, 0.0); 
+  border: 0px; 
+  border-radius: 8px; 
+}
+
+.equipo-caja {
+  box-sizing: border-box;
+  flex: 0 0 calc(20% - 20px);
+  margin: 10px;
+  padding: 15px;
+  border: 0px solid #ccc;
+  text-align: center;
+}
+
+.equipo-caja img {
+  max-width: 100%; 
+}
+
+.players-list {
+  max-width: 600px;
+  max-height: 400px;
+  overflow-y: auto;
+  margin: 20px auto;
+  padding: 20px;
+  padding-bottom: 30px;
+  background-color: transparent;
+  border: none; 
+  border-radius: 0; 
+  box-shadow: none; 
+}
+
+
+.players-list::-webkit-scrollbar {
+  width: 8px;
+}
+
+.players-list::-webkit-scrollbar-thumb {
+  background-color: #a0a0a0;
+  border-radius: 3px;
+}
+
+.players-list::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.back-button {
+  margin-bottom: 15px;
+  background-color: rgba(6, 68, 6, 0.5); 
+  color: #fff; 
+  padding: 10px 15px;
+  font-size: 16px; 
+  border: none; 
+  border-radius: 4px; 
+  cursor: pointer; 
+}
+
+
+.equipo-container img {
+  max-width: 100%;
+  height: auto; 
+  margin-bottom: 15px; 
+}
+
+.texto-color-equipos {
+  color: white;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
+.listando-jugadores{
+  width: 350px;
+}
+
+.jugadores-textos {
+
+  padding: 10px;
+}
+
+.jugadores-textos span {
+  font-weight: bold; 
+}
+

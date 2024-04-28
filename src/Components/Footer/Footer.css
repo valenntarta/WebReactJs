@@ -1,0 +1,26 @@
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    height: 110px;
+    background: rgb(30, 30, 30);
+    opacity: 0.9;
+    display: flex;
+    width: 100%;
+
+}
+
+.tapar {
+    opacity: 0;
+}
+
+.logo {
+    height: 30px;
+    width: 30px
+}
+
+.textFooter{
+    color: aliceblue;
+    padding-left: 20px;
+    padding-top: 20px;
+}
